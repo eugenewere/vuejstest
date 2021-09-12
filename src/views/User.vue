@@ -1,5 +1,5 @@
 <template>
-  <h1>This is {{ username }}'s page</h1>
+  <h1>This is {{ username }}'s page so leave</h1>
 </template>
 
 <script>
