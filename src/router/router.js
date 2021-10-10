@@ -1,11 +1,11 @@
 import Vue from 'vue'
-import VueRouter from 'vue-router'
+import Router from 'vue-router'
 import EventList from '../views/EventList'
 import EventCreate from '../views/EventCreate'
 import EventShow from '../views/EventShow'
 import User from '../views/User'
 
-Vue.use(VueRouter)
+Vue.use(Router)
 
 const routes = [
   {
@@ -32,7 +32,7 @@ const routes = [
   },
 ]
 
-const router = new VueRouter({
+const router = new Router({
   mode: 'history',
   routes: routes,
 })
