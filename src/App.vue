@@ -4,6 +4,14 @@
     <EventList></EventList>
   </div>
 </template>
+<script>
+import NavBar from './components/NavBar'
+import EventList from './views/EventList'
+
+export default {
+  components: { EventList, NavBar },
+}
+</script>
 
 <style>
 html {
@@ -289,11 +297,3 @@ select::ms-expand {
   color: red;
 }
 </style>
-<script>
-import NavBar from './components/NavBar'
-import EventList from './views/EventList'
-
-export default {
-  components: { EventList, NavBar },
-}
-</script>
